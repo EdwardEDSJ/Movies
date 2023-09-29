@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background= "#344a4d"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="62dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/trespontos"
+        android:drawableEnd="@drawable/battery"
+        android:text="Orange                      "
+        android:textColor="#fff"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies"
+        android:textSize="70dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interact With Your Demons"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:drawableStart="@drawable/userewqeqw"
+        android:hint="    User Name"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:padding="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColorHint="#fff"
+
+        android:hint="  Password"
+        android:drawableStart="@drawable/trancar"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp"
+
+
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:padding="10dp"
+        android:text="Sign In"
+        android:textAllCaps="true"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                                                  OR"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:background="#226ef2"
+        android:drawableLeft="@drawable/facebook"
+        android:text="Sign in With Facebook"
+        android:padding="10dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Don´t have an account? Sign up"
+        android:background="#"
+        android:textColor="#fff"/>
+
+
+
+
+
+</LinearLayout>
