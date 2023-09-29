@@ -70,12 +70,15 @@
 
 
         />
-    <Button
+    <TextView
+        android:background="#f2a222"
         android:layout_width="260dp"
         android:layout_height="60dp"
         android:layout_marginLeft="70dp"
         android:padding="10dp"
-        android:text="Sign In"
+        android:textColor="#fff"
+
+        android:text="               Sign In"
         android:textAllCaps="true"
         android:textSize="22dp"/>
 
@@ -86,13 +89,15 @@
         android:layout_marginLeft="20dp"
         android:textColor="#fff"/>
 
-    <Button
+    <TextView
         android:layout_width="260dp"
         android:layout_height="60dp"
         android:layout_marginLeft="70dp"
         android:background="#226ef2"
+
         android:drawableLeft="@drawable/facebook"
-        android:text="Sign in With Facebook"
+        android:text="       Sign in with Facebook"
+        android:textColor="#fff"
         android:padding="10dp" />
 
 
@@ -102,7 +107,7 @@
         android:layout_marginTop="30dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:text="Don´t have an account? Sign up"
+        android:text="Don´t have an account yet? Sign up"
         android:background="#"
         android:textColor="#fff"/>
 
